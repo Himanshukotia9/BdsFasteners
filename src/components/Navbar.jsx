@@ -160,23 +160,23 @@ export default function Navbar() {
   
   const LINKS = [
     {
-      text: "Home",
+      text: "HOME",
       href: "/",
     },
     {
-      text: "About Us",
+      text: "ABOUT US",
       href: "/about-us",
     },
     {
-      text: "Why Choose Us",
+      text: "WHY CHOOSE US",
       href: "/why-choose-us",
     },
     {
-      text: "Products",
+      text: "PRODUCTS",
       href: "/products",
     },
     {
-      text: "Contact Us",
+      text: "CONTACT US",
       href: "/contact-us",
     },
   ];
