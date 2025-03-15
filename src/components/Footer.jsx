@@ -9,10 +9,10 @@ export default function Footer() {
     <footer className="relative w-full bg-neutral-950">
       <div className="mx-auto w-full max-w-7xl px-8 2xl:px-0">
         <div className="grid py-8 justify-between">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-between gap-2">
-            <ul>
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-12 gap-4">
+            <ul className="md:col-span-1 xl:col-span-5">
               <div className="flex items-center gap-2">
-                <span className="text-2xl font-bold text-white">
+                <span className="text-2xl font-bold text-stone-400">
                   BDS Fasteners
                 </span>
                 <svg
@@ -38,7 +38,7 @@ export default function Footer() {
                 </li>
             </ul>
             {links.map(({title, items}) => (
-              <ul key={title}>
+              <ul key={title} className=" md:col-span-1 xl:col-span-2">
                 <Typography variant="h6" color="white" className="mb-3 font-semibold opacity-60 underline underline-offset-2">{title}</Typography>
                 <div className="uppercase">
                   {items.map(({link, path, index}) => (
@@ -51,7 +51,7 @@ export default function Footer() {
                 </div>
               </ul>
             ))}
-            <ul>
+            <ul className="md:col-span-1 xl:col-span-2">
               <Typography variant="h6" color="white" className="mb-3 font-semibold opacity-60 underline underline-offset-2">Connect With Us</Typography>
               <div className="">
                 <li>
@@ -65,9 +65,9 @@ export default function Footer() {
                 </li>
               </div>
             </ul>
-            <ul>
+            <ul className="md:col-span-1 xl:col-span-3">
               <div>
-                <iframe title="Property location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24899.561039827993!2d78.09429288320315!3d30.454131389201283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908dbb008c00ee5%3A0xee991ea46d01ea33!2sDEVDAR%20ESTATE!5e1!3m2!1sen!2sin!4v1728565542081!5m2!1sen!2sin" width="300" height="200" style={{border: "0"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title="Property location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24899.561039827993!2d78.09429288320315!3d30.454131389201283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908dbb008c00ee5%3A0xee991ea46d01ea33!2sDEVDAR%20ESTATE!5e1!3m2!1sen!2sin!4v1728565542081!5m2!1sen!2sin" width="100%" height="200" style={{border: "0"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </ul>
           </div>

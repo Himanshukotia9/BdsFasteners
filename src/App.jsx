@@ -7,7 +7,7 @@ export default function App() {
   return (
     <>
       <Navbar/>
-      <main className='min-h-screen bg-neutral-900 text-white'>
+      <main className='bg-neutral-900 text-white'>
         <Outlet/>
       </main>
       <Footer/>
