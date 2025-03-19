@@ -1,6 +1,6 @@
 import { Typography } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
-import { links } from '../../public/data'
+import { links } from "../../public/data";
 
 const currentYear = new Date().getFullYear();
  
@@ -55,7 +55,7 @@ export default function Footer() {
               <Typography variant="h6" color="white" className="mb-3 font-semibold opacity-60 underline underline-offset-2">Connect With Us</Typography>
               <div className="">
                 <li>
-                  <Typography as="p" color="white" className="py-1.5 font-normal transition-colors hover:text-stone-400">Chamba - Mussoorie Rd, Bhataghat, Mussoorie, Matholi, Uttarakhand 248122</Typography>
+                  <Typography as="p" color="white" className="py-1.5 font-normal transition-colors hover:text-stone-400">34-A, Div Colony, Industrial Estate, Jalandhar, Punjab 144004</Typography>
                 </li>
                 <li>
                   <Typography as="a" href="mailto:bdsfasteners@gmail.com" color="white" className="py-1.5 font-normal transition-colors hover:text-stone-400">bdsfasteners@gmail.com</Typography>
@@ -67,7 +67,7 @@ export default function Footer() {
             </ul>
             <ul className="md:col-span-1 xl:col-span-3">
               <div>
-                <iframe title="Property location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24899.561039827993!2d78.09429288320315!3d30.454131389201283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908dbb008c00ee5%3A0xee991ea46d01ea33!2sDEVDAR%20ESTATE!5e1!3m2!1sen!2sin!4v1728565542081!5m2!1sen!2sin" width="100%" height="200" style={{border: "0"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title="Property location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3083.3510583859534!2d75.5979933!3d31.353077999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5b2a1f506861%3A0xabe5a2e29cd534c!2sBDS%20Fastener%20and%20Supply%20LLP!5e1!3m2!1sen!2sin!4v1742381857075!5m2!1sen!2sin" width="100%" height="200" style={{border: "0"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </ul>
           </div>
@@ -80,8 +80,8 @@ export default function Footer() {
             &copy; {currentYear} BDS Fasteners. All Rights Reserved.
           </Typography>
           <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
-            <Typography as={Link} to="/about-us" variant="small" className="mb-4 text-center font-normal text-white hover:text-stone-400 md:mb-0">About Us</Typography>
-            <Typography as={Link} to="/about-us" variant="small" className="mb-4 text-center font-normal text-white hover:text-stone-400 md:mb-0">About Us</Typography>
+            <Typography as={Link} to="/about-us" variant="small" className="mb-4 text-center font-normal text-white hover:text-stone-400 md:mb-0 uppercase">Privacy Policy</Typography>
+            <Typography as={Link} to="/about-us" variant="small" className="mb-4 text-center font-normal text-white hover:text-stone-400 md:mb-0 uppercase">Terms of use</Typography>
           </div>
         </div>
       </div>
