@@ -7,7 +7,8 @@ export const homePage ={
   homeBanner: {
     heading1: "Engineering the Future of Fasteners",
     heading2: "India’s Largest Fastener Manufacturer Since 1962",
-    imageSrc: "https://images.unsplash.com/photo-1567177172939-9b0ee9d116d9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    imageSrc: "https://images.unsplash.com/photo-1567177172939-9b0ee9d116d9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageAlt: "HomePage Banner"
   },
   altBanner: [
     {
@@ -48,6 +49,51 @@ export const homePage ={
   ],
   marqueeSlogan:[
     "Quality at Every Step", "Sustainability", "Engineered for Excellence", "Crafting Solid Foundations", "Trusted Worldwide"
+  ],
+}
+
+export const aboutUsPage ={
+  homeBanner: {
+    heading1: "About BDS Fasteners",
+    imageSrc: "https://plus.unsplash.com/premium_photo-1682146920372-bd950e25125d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageAlt: "AboutUsPage Banner"
+  },
+  altBanner: [
+    {
+      heading1: "About Bds Fasteners",
+      heading2: "Empowering Industries with Precision Fasteners Since 1962",
+      mainText: "The BDS Fasteners has been at the forefront of fastener manufacturing for over 60 years, renowned for its excellence under the REPSI and UCON brands. Our journey, rooted in innovation, quality, and customer satisfaction, has seen us become a pivotal player in both Indian and European markets. With state-of-the-art technology and a diverse range of products, we stand as a testament to enduring quality and relentless pursuit of customer-centric solutions.",
+      button: {
+        text: "About Us",
+        link: "/about-us"
+      },
+      imageSrc: "https://images.unsplash.com/photo-1589793463357-5fb813435467?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Using placeholder image
+    },
+    {
+      heading1: "Why Choose us",
+      heading2: "Excellence in Every Fastener",
+      button: {
+        text: "Why Choose Us",
+        link: "/why-choose-us"
+      },
+      bulletPoints: [{
+        title: "Unmatched Quality",
+        text: "Rigorous quality checks and ISO 9001 certification ensure each fastener meets global standards. Our commitment to excellence is recognized through various international certifications.",
+        icon: <FaScrewdriverWrench className="size-6"/>
+      },
+      {
+        title: "Innovative Solutions",
+        text: "Continuous innovation in manufacturing and product development keeps us ahead. From state-of-the-art technology to a diverse product range, we lead with innovation.",
+        icon: <RiLightbulbFlashFill className="size-6"/>
+      },
+      {
+        title: "Customer-Centric Service",
+        text: "Our focus is on understanding and fulfilling your unique needs. Customized solutions and a dedicated team ensure complete customer satisfaction.",
+        icon: <MdSupportAgent className="size-6"/>
+      },
+      ],
+      imageSrc: "https://plus.unsplash.com/premium_photo-1676760960823-cca1c4943504?q=80&w=2006&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
   ],
 }
 

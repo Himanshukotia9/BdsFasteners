@@ -8,8 +8,6 @@ import {
 } from "framer-motion";
 import { Link } from "react-router-dom";
 
-const currentYear = new Date().getFullYear();
-
   
 export default function Navbar() {
     const [scrolled, setScrolled] = useState(false);
@@ -119,25 +117,25 @@ export default function Navbar() {
     const [open, setOpen] = useState(false);
     return (
       <div className="block lg:hidden">
-        <button onClick={() => setOpen(true)} className="block text-3xl">
-          <FiMenu />
-        </button>
+        {!open ? (
+          <button onClick={() => setOpen(true)} className="block text-3xl">
+            <FiMenu />
+          </button>
+        ) : (
+          <button onClick={() => setOpen(false)}>
+            <FiX className="text-3xl" />
+          </button>
+        )}
         <AnimatePresence>
           {open && (
             <motion.nav
-              initial={{ x: "100vw" }}
-              animate={{ x: 0 }}
-              exit={{ x: "100vw" }}
-              transition={{ duration: 0.15, ease: "easeOut" }}
-              className="fixed left-0 top-0 flex h-screen w-full flex-col bg-white"
+              initial={{ opacity: 0, y: -100 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -100 }}
+              transition={{ duration: 0.3, ease: "easeOut" }}
+              className="absolute left-0 top-20 flex h-min w-full flex-col bg-white"
             >
-              <div className="flex items-center justify-between p-6">
-                <Logo color="black" />
-                <button onClick={() => setOpen(false)}>
-                  <FiX className="text-3xl text-neutral-950" />
-                </button>
-              </div>
-              <div className="h-screen overflow-y-scroll bg-neutral-100 p-6">
+              <div className="h-min overflow-y-scroll bg-neutral-100 px-6">
                 {LINKS.map((l) => (
                   <MobileMenuLink
                     key={l.text}
@@ -147,9 +145,6 @@ export default function Navbar() {
                     {l.text}
                   </MobileMenuLink>
                 ))}
-              </div>
-              <div className="flex justify-center items-center bg-neutral-950 p-6">
-                <p className='text-center text-gray-500 text-sm'>&copy; {currentYear} BDS Fasteners. All Rights Reserved.</p>
               </div>
             </motion.nav>
           )}

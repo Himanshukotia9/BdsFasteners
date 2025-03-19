@@ -7,20 +7,24 @@ export default function HeroBanner({data}) {
         <img
           className="object-cover w-full h-full md:object-left md:scale-150 md:origin-top-left"
           src={data.imageSrc}
-          alt=""
+          alt={data.imageAlt}
         />
       </div>
 
       <div className="absolute inset-0 z-0 bg-gradient-to-b from-neutral-950/90 to-neutral-950/0" />
 
-      <div className="relative py-8 px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+      <div className="relative pb-8 pt-16 lg:py-8 px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
         <div className="text-center lg:w-1/2 md:text-left">
-          <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl font-heading">
-          {data.heading1}
-          </h2>
-          <p className="font-primary mt-4 text-lg text-gray-200">
-          {data.heading2}
-          </p>
+          {data.heading1 && (
+            <h2 className="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl font-heading">
+            {data.heading1}
+            </h2>
+          )}
+          {data.heading2 && (
+            <p className="font-primary mt-4 text-lg text-gray-200">
+            {data.heading2}
+            </p>
+          )}
         </div>
       </div>
     </section>
