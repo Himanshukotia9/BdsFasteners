@@ -20,6 +20,16 @@ const AltBanner = ({ data, reverse }) => {
             {data.mainText}
           </p>
         )}
+
+        {data.heading3 && (
+          <h3 className="text-xl font-bold font-heading text-white my-4 uppercase">{data.heading3}</h3>
+        )}
+
+        {data.mainText2 && (
+          <p className="text-white font-primary">
+            {data.mainText}
+          </p>
+        )}
         
         {data.bulletPoints && data.bulletPoints.length > 0 && (
           <ul className="list-none pl-3 space-y-2">

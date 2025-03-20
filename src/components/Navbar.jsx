@@ -32,7 +32,7 @@ export default function Navbar() {
           <div className="hidden gap-6 lg:flex">
             <Links />
           </div>
-          <MobileMenu />
+          <MobileMenu scrolled={scrolled}/>
         </div>
       </nav>
     );
@@ -97,7 +97,7 @@ export default function Navbar() {
   const MobileMenuLink = ({ children, href, setMenuOpen }) => {
   
     return (
-      <div className="text-neutral-950">
+      <div className="text-white">
         <Link
             onClick={(e) => {
               e.stopPropagation();
@@ -113,7 +113,7 @@ export default function Navbar() {
     );
   };
   
-  const MobileMenu = () => {
+  const MobileMenu = ({scrolled}) => {
     const [open, setOpen] = useState(false);
     return (
       <div className="block lg:hidden">
@@ -133,9 +133,9 @@ export default function Navbar() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -100 }}
               transition={{ duration: 0.3, ease: "easeOut" }}
-              className="absolute left-0 top-20 flex h-min w-full flex-col bg-white"
+              className={`absolute left-0 ${scrolled ? "top-16" : "top-20"} flex h-min w-full flex-col bg-white`}
             >
-              <div className="h-min overflow-y-scroll bg-neutral-100 px-6">
+              <div className="h-min overflow-y-scroll bg-black px-6">
                 {LINKS.map((l) => (
                   <MobileMenuLink
                     key={l.text}
