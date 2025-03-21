@@ -1,13 +1,12 @@
 import React from 'react'
-import { homePage } from '../../public/data'
+import { whyChooseUsPage } from '../../public/data'
 import HeroBanner from '../components/HeroBanner'
 
 export default function WhyChooseUs() {
-  const {homeBanner} = homePage;
+  const { homeBanner } = whyChooseUsPage;
   return (
     <div>
       <HeroBanner data={homeBanner}/>
-      why choose us
     </div>
   )
 }

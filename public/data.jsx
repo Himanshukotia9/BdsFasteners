@@ -20,7 +20,7 @@ export const homePage ={
         text: "About Us",
         link: "/about-us"
       },
-      imageSrc: "https://images.unsplash.com/photo-1589793463357-5fb813435467?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Using placeholder image
+      imageSrc: "https://images.unsplash.com/photo-1589793463357-5fb813435467?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       heading1: "Why Choose us",
@@ -65,7 +65,45 @@ export const aboutUsPage ={
       heading3: "UCON: A Division Defined by Quality and Innovation",
       mainText: "Established in 1962, the Kaloti Group has emerged as a leader in the fastener manufacturing industry, renowned for its groundbreaking standards and quality products under the REPSI and UCON brands. Over 60+ years, we have carved out a significant presence in both Indian and European markets, continually setting industry benchmarks worldwide.",
       mainText2: "Since 1962, UCON has specialized in precision fasteners, earning global recognition for exceptional quality and innovation. As a trusted name in the industry, UCON caters to diverse needs across various sectors, embodying our commitment to excellence and customer satisfaction.",
-      imageSrc: "https://plus.unsplash.com/premium_photo-1664299773838-46177e77e1b4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" // Using placeholder image
+      imageSrc: "https://plus.unsplash.com/premium_photo-1664299773838-46177e77e1b4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+    {
+      heading1: "OUR TECHNOLOGY",
+      heading2: "Technological Edge and Product Diversity",
+      mainText: "At Kaloti Group, we pride ourselves on our ability to meet the diverse needs of the fastener industry through advanced technology and a broad product range.",
+      bulletPoints: [{
+        title: "Advanced Equipment",
+        text: "Our facilities have industry-leading machinery, including National (USA) boltmaker machines and hot forging lines. This technology is integral to our manufacturing process, enabling us to meet various client specifications.",
+        icon: <SiTicktick className="size-6"/>
+      },
+      {
+        title: "Diverse Product Range",
+        text: "We offer a wide array of fasteners in mild-steel and high-tensile steel. Our products adhere to internationally recognized standards, such as DIN, ASTM, ISO, IS, and BS, ensuring global applicability and reliability.",
+        icon: <SiTicktick className="size-6"/>
+      },
+      ],
+      button: {
+        text: "Why Choose Us",
+        link: "/why-choose-us"
+      },
+      imageSrc: "https://images.unsplash.com/photo-1589792924333-edbfbe7c8be7?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    },
+  ],
+}
+
+export const whyChooseUsPage ={
+  homeBanner: {
+    heading1: "Why CHOOSE US",
+    imageSrc: "https://images.unsplash.com/photo-1538080204498-afe921550d75?q=80&w=2085&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageAlt: "WhyChooseUsPage Banner"
+  },
+  altBanner: [
+    {
+      heading1: "Pioneers in Fastener Manufacturing",
+      heading3: "UCON: A Division Defined by Quality and Innovation",
+      mainText: "Established in 1962, the Kaloti Group has emerged as a leader in the fastener manufacturing industry, renowned for its groundbreaking standards and quality products under the REPSI and UCON brands. Over 60+ years, we have carved out a significant presence in both Indian and European markets, continually setting industry benchmarks worldwide.",
+      mainText2: "Since 1962, UCON has specialized in precision fasteners, earning global recognition for exceptional quality and innovation. As a trusted name in the industry, UCON caters to diverse needs across various sectors, embodying our commitment to excellence and customer satisfaction.",
+      imageSrc: "https://plus.unsplash.com/premium_photo-1664299773838-46177e77e1b4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       heading1: "OUR TECHNOLOGY",
