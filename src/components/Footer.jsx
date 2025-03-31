@@ -58,10 +58,10 @@ export default function Footer() {
                   <Typography as="p" color="white" className="py-1.5 font-normal transition-colors hover:text-stone-400">34-A, Div Colony, Industrial Estate, Jalandhar, Punjab 144004</Typography>
                 </li>
                 <li>
-                  <Typography as="a" href="mailto:bdsfasteners@gmail.com" color="white" className="py-1.5 font-normal transition-colors hover:text-stone-400">bdsfasteners@gmail.com</Typography>
+                  <Typography as="a" href="mailto:Sbdsfastener@gmail.com" color="white" className="py-1.5 font-normal transition-colors hover:text-stone-400">Sbdsfastener@gmail.com</Typography>
                 </li>
                 <li>
-                  <Typography as="a" href="tel:+919874598745" color="white" className="py-1.5 font-normal transition-colors hover:text-stone-400">+91 9876598765</Typography>
+                  <Typography as="a" href="tel:+919888666311" color="white" className="py-1.5 font-normal transition-colors hover:text-stone-400">+91 9888666311</Typography>
                 </li>
               </div>
             </ul>

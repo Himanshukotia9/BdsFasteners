@@ -32,7 +32,7 @@ const AltBanner = ({ data, reverse }) => {
         )}
         
         {data.bulletPoints && data.bulletPoints.length > 0 && (
-          <ul className="list-none pl-3 space-y-2">
+          <ul className="list-none md:pl-3 space-y-2">
           {data.bulletPoints.map((point, index) => (
             <li key={index} className="text-white flex items-start">
               <span className="mr-4 flex-shrink-0 text-red-600">{point.icon}</span>
