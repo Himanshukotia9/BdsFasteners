@@ -11,8 +11,8 @@ export default function ProductsCategories() {
   return (
     <>
         <HeroBanner data={homeBanner2}/>
-        <div className="flex flex-col md:flex-row w-full max-w-6xl mx-auto py-12 px-4 sm:px-8 gap-6">
-            <div className="flex-1 flex items-center justify-center">
+        <div className="flex flex-col items-center justify-center md:flex-row h-screen w-full max-w-6xl mx-auto py-12 px-4 sm:px-8 gap-6">
+            <div className="flex-1 flex">
                 <div className="relative w-80 md:w-full h-80 pb-3/4 md:pb-0 md:h-96">
                     <img 
                         src={product.imageSrc}
