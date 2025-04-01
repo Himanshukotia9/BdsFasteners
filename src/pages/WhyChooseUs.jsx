@@ -6,7 +6,7 @@ import BulletPoint from '../components/BulletPoint';
 export default function WhyChooseUs() {
   const { homeBanner, bulletPoints } = whyChooseUsPage;
   return (
-    <div className='xl:h-[calc(100vh-120px)]'>
+    <div className='my-auto'>
       <HeroBanner data={homeBanner}/>
       <BulletPoint data={bulletPoints}/>
     </div>
