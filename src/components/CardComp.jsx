@@ -23,19 +23,13 @@ export default function CardComp({
       
       {/* Card Content */}
       <div className="p-4 flex-grow">
-        <h3 className="text-xl font-semibold mb-2 text-white font-heading">{title}</h3>
-        {description && (
-          <div>
-            <p className="text-white mb-4">{description.mmSize}</p>
-            <p className="text-white mb-4">{description.bswSize}</p>
-          </div>
-        )}
+        <h3 className="text-xl text-center font-semibold mb-2 text-white font-heading">{title}</h3>
       </div>
       
       {/* Card Button */}
       <div className="px-4 pb-4">
         <Link to={`/products/${title}`}>
-          <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded transition duration-300">
+          <button className="w-full bg-red-600 hover:bg-red-700 text-white font-medium py-2 px-4 rounded transition duration-300">
             Learn More
           </button>
         </Link>
