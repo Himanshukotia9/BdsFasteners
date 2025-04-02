@@ -5,13 +5,9 @@ export default function CardComp({
     imageUrl, 
     imageAlt = "Card image", 
     title, 
-    description, 
-    buttonText = "Learn More", 
-    buttonAction, 
-    className = "" 
   }) {
   return (
-    <div className={`overflow-hidden rounded-lg shadow-md bg-stone-800 group max-w-sm h-full w-80 flex flex-col ${className}`}>
+    <div className='overflow-hidden rounded-lg shadow-md bg-stone-800 group max-w-sm h-full w-80 flex flex-col'>
       {/* Card Image */}
       <div className="w-full h-48 overflow-hidden">
         <img 
@@ -29,7 +25,7 @@ export default function CardComp({
       {/* Card Button */}
       <div className="px-4 pb-4">
         <Link to={`/products/${title}`}>
-          <button className="w-full bg-red-600 hover:bg-red-700 text-white font-medium py-2 px-4 rounded transition duration-300">
+          <button className="w-full bg-red-600 hover:bg-red-700 font-primary text-white font-medium py-2 px-4 rounded transition duration-300">
             Learn More
           </button>
         </Link>

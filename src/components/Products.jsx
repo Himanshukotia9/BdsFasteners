@@ -10,8 +10,7 @@ export default function Products({data}) {
             <CardComp
             imageUrl={product.imageSrc} 
             imageAlt="Product image"
-            title={product.title} 
-            description={product.sizeRange}
+            title={product.title}
           />
         ))}
         </div>
