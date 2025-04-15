@@ -34,7 +34,7 @@ export default function Footer() {
                 </svg>
               </div>
               <li>
-                  <Typography as="p" color="white" className="py-1.5 font-normal">BDS Fasteners, renowned for its high-quality industrial fasteners, caters to a diverse range of applications across industries including Automotive, Electrical, Agriculture, Scaffolding & Formwork, Wind Energy, Power Transmission, Railway-Bridges, Hydro Projects, and more. Our commitment to excellence and innovation positions us as leaders in the fastener market.</Typography>
+                  <Typography as="p" color="white" className="py-1.5 font-normal">BDS Fasteners, renowned for its high-quality industrial fasteners, caters to a diverse range of applications across industries. we believe that quality isn’t just a standard – it’s a commitment. Each fastener we produce undergoes rigorous checks and precise manufacturing using advanced machines like CNC and hot forging units. We don’t chase volumes; we chase perfection.</Typography>
                 </li>
             </ul>
             {links.map(({title, items}) => (

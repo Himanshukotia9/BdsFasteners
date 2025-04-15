@@ -17,8 +17,12 @@ export const homePage ={
   altBanner: [
     {
       heading1: "About Bds Fasteners",
-      heading2: "Empowering Industries with Precision Fasteners Since 1962",
-      mainText: "The BDS Fasteners has been at the forefront of fastener manufacturing for over 60 years, renowned for its excellence under the REPSI and UCON brands. Our journey, rooted in innovation, quality, and customer satisfaction, has seen us become a pivotal player in both Indian and European markets. With state-of-the-art technology and a diverse range of products, we stand as a testament to enduring quality and relentless pursuit of customer-centric solutions.",
+      heading2: `“35 Years of Trusted Fastener Manufacturing – Precision. Performance. Perfection.”`,
+      mainText: (
+        <>
+        <strong>Established in 1995</strong>, we are a reputed fastener manufacturing company known for delivering precision-engineered solutions across India. With a commitment to quality over quantity, we’ve built long-lasting relationships with clients who not only rely on our products for their domestic needs but also <strong>export our fasteners to international markets.</strong>
+        </>
+      ),
       button: {
         text: "About Us",
         link: "/about-us"
@@ -33,18 +37,18 @@ export const homePage ={
         link: "/why-choose-us"
       },
       bulletPoints: [{
-        title: "Unmatched Quality",
-        text: "Rigorous quality checks and ISO 9001 certification ensure each fastener meets global standards. Our commitment to excellence is recognized through various international certifications.",
+        title: "35 Years of Industry Expertise",
+        text: "We’ve built a reputation of trust and excellence with decades of hands-on experience.",
         icon: <FaScrewdriverWrench className="size-10"/>
       },
       {
-        title: "Innovative Solutions",
-        text: "Continuous innovation in manufacturing and product development keeps us ahead. From state-of-the-art technology to a diverse product range, we lead with innovation.",
+        title: "Advanced Manufacturing Technology",
+        text: "We use cutting-edge CNC machines, hot forging processes, and various specialized equipment for consistent and superior quality.",
         icon: <RiLightbulbFlashFill className="size-10"/>
       },
       {
-        title: "Customer-Centric Service",
-        text: "Our focus is on understanding and fulfilling your unique needs. Customized solutions and a dedicated team ensure complete customer satisfaction.",
+        title: "Pan India Presence",
+        text: "We proudly serve clients across every corner of India with reliable delivery and support.",
         icon: <MdSupportAgent className="size-10"/>
       },
       ],
@@ -64,24 +68,24 @@ export const aboutUsPage ={
   },
   altBanner: [
     {
-      heading1: "Pioneers in Fastener Manufacturing",
-      heading3: "UCON: A Division Defined by Quality and Innovation",
-      mainText: "Established in 1962, the Kaloti Group has emerged as a leader in the fastener manufacturing industry, renowned for its groundbreaking standards and quality products under the REPSI and UCON brands. Over 60+ years, we have carved out a significant presence in both Indian and European markets, continually setting industry benchmarks worldwide.",
-      mainText2: "Since 1962, UCON has specialized in precision fasteners, earning global recognition for exceptional quality and innovation. As a trusted name in the industry, UCON caters to diverse needs across various sectors, embodying our commitment to excellence and customer satisfaction.",
+      heading1: "Experts in the Production of Fasteners",
+      heading3: "Our Mission",
+      mainText: "Established in 1995, we are a legacy-driven fastener manufacturing company dedicated to quality, innovation, and reliability. From humble beginnings to becoming a trusted name across India, our journey has been powered by precision engineering and customer satisfaction.",
+      mainText2: "To deliver world-class fasteners that meet the highest standards in strength, durability, and performance.",
       imageSrc: "https://plus.unsplash.com/premium_photo-1664299773838-46177e77e1b4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       heading1: "OUR TECHNOLOGY",
-      heading2: "Technological Edge and Product Diversity",
-      mainText: "At Kaloti Group, we pride ourselves on our ability to meet the diverse needs of the fastener industry through advanced technology and a broad product range.",
+      heading2: "Innovation in Technology and Variety in Products",
+      mainText: "we take great satisfaction in our ability to use cutting-edge technology and a wide range of products to satisfy the various demands of the fastener business.",
       bulletPoints: [{
         title: "Advanced Equipment",
-        text: "Our facilities have industry-leading machinery, including National (USA) boltmaker machines and hot forging lines. This technology is integral to our manufacturing process, enabling us to meet various client specifications.",
+        text: "Our manufacturing facility is equipped with advanced CNC machines from Doosan (South Korea), hot forging units, and a full suite of testing and finishing tools. This setup allows us to produce industrial-grade fasteners that meet the highest standards — used in railway applications, telecom towers, bridges, and infrastructure projects.",
         icon: <SiTicktick className="size-10"/>
       },
       {
         title: "Diverse Product Range",
-        text: "We offer a wide array of fasteners in mild-steel and high-tensile steel. Our products adhere to internationally recognized standards, such as DIN, ASTM, ISO, IS, and BS, ensuring global applicability and reliability.",
+        text: "We provide a large selection of fasteners made of high quality steel. Our products adhere to internationally recognized standards, ensuring global applicability and reliability.",
         icon: <SiTicktick className="size-10"/>
       },
       ],
@@ -101,38 +105,38 @@ export const whyChooseUsPage ={
     imageAlt: "WhyChooseUsPage Banner"
   },
   bulletPoints: [{
-    title: "Over 60 Years of Excellence",
-    text: "Established in 1962, the Kaloti Group excels in fastener manufacturing, with decades of innovation, global standards, and quality dedication.",
+    title: "Decades of Experience",
+    text: "With 35+ years in the industry, our journey has been one of innovation, reliability, and evolution. We’ve adapted with time, invested in the latest machinery, and trained our workforce to meet the ever-changing needs of our customers.",
     icon: <BsBuildingsFill className="size-10"/>
   },
   {
-    title: "Internationally Acclaimed, Locally Trusted",
-    text: "Kaloti Group's REPSI and UCON brands offer high-quality mild-steel and high-tensile steel fasteners, meeting international standards across Indian and European markets.",
+    title: "Advanced Manufacturing Setup",
+    text: "Our production unit is equipped with: CNC Machines for precision parts, Hot Forging Units for durability and strength. Thread Rolling and Heat Treatment Machines for performance optimization, Quality Control Labs to ensure every piece meets industrial standards.",
     icon: <RiVerifiedBadgeFill className="size-10"/>
   },
   {
-    title: "Advanced Technology at Your Service",
-    text: "Our 30,000 SQM facility with USA boltmaker machines and hot forging lines produces 2000MT of high-quality fasteners monthly.",
+    title: "All-India Presence",
+    text: "From industrial hubs to remote project sites, our fasteners are trusted and used across India. We ensure timely delivery and consistent support, no matter where you are located.",
     icon: <BsGearWideConnected className="size-10"/>
   },
   {
-    title: "Certifications That Speak Volumes",
-    text: "We proudly hold CE, ISI, ISO/TS 16949, and EN ISO 9001 certifications, showcasing our commitment to top-quality product standards.",
+    title: "Ahead in Technology and service",
+    text: "In order to deliver creative solutions, we continuously progress from manual machines to advanced formers.",
     icon: <TbCertificate className="size-10"/>
   },
   {
-    title: "Tailored Solutions, Satisfied Clients",
-    text: "We prioritize understanding and fulfilling customer needs with expert teams and in-house tooling capabilities.",
+    title: "Quality That Goes Global",
+    text: "Our fasteners are not just used across India, they’re exported globally through our clients. Whether it's railway infrastructure, high-rise towers, or massive bridge projects, our products are built to last and trusted where safety is non-negotiable.",
     icon: <TbBulbFilled className="size-10"/>
   },
   {
-    title: "Testament to Trust",
-    text: "Our growing production volumes and revenue highlight our stability and capability to meet global market demands efficiently.",
+    title: "Infrastructure-Grade Reliability",
+    text: "Our fasteners play a key role in railways, transmission towers, bridges, and industrial structures, where strength, consistency, and quality are critical. Engineers and project heads choose us because we deliver what we promise every time.",
     icon: <VscWorkspaceTrusted className="size-10"/>
   },
   {
-    title: "Ahead in Technology, Ahead in Service",
-    text: "We continually evolve from manual machines to advanced formers to provide innovative solutions.",
+    title: "Long-Term Relationships, Built on Trust",
+    text: "We are proud to have a large base of trusted clients who have been associated with us for years – even decades. Our consistency, transparency, and customer-first approach have helped us earn their loyalty.",
     icon: <FaUserGear className="size-10"/>
   },
   {
@@ -218,20 +222,6 @@ export const productsPage ={
   ]
 }
 
-export const cardsData = [
-    {
-      id: 1,
-      title: "Standard room",
-      subTitle: "A Cozy Retreat with Modern Comforts",
-      description: "The Standard Room offers a delightful blend of comfort and simplicity. Perfect for solo travelers or couples, this room features tasteful décor, a plush bed, and all the modern amenities you need for a restful stay. Enjoy a peaceful escape with views of the cottage’s serene surroundings.",
-    },
-    {
-      id: 2,
-      title: "Deluxe Room",
-      subTitle: "Elevated Comfort with Scenic Views",
-      description: "The Deluxe Room provides a spacious retreat with elegant furnishings and scenic views of the hills. Ideal for those seeking both luxury and affordability, this room offers a king-sized bed, a private sitting area, and large windows that fill the space with natural light, making your stay truly refreshing.",
-    },
-];
 
 // for footer component
 export const links = [
