@@ -13,7 +13,7 @@ export default function PageNotFound() {
             <div className='footer grid gap-8 place-content-baseline sm:max-w-80'>
                 <p className='text-base'>We're sorry, the page you requested could not be found. Please go back to the homepage!</p>
                 <Link to='/'>
-                  <button className='p-4 rounded-md text-base font-semibold bg-[#f9b23c] cursor-pointer transition-[0.3s] hover:bg-[#f49a20]'>Go Home</button>
+                  <button className='p-4 w-full rounded-md text-base font-semibold bg-[#f9b23c] cursor-pointer transition-[0.3s] hover:bg-[#f49a20]'>Go Home</button>
                 </Link>
             </div>
         </div>
