@@ -39,17 +39,17 @@ export const homePage ={
       bulletPoints: [{
         title: "35 Years of Industry Expertise",
         text: "We’ve built a reputation of trust and excellence with decades of hands-on experience.",
-        icon: <FaScrewdriverWrench className="size-10"/>
+        icon: <FaScrewdriverWrench size={36}/>
       },
       {
         title: "Advanced Manufacturing Technology",
         text: "We use cutting-edge CNC machines, hot forging processes, and various specialized equipment for consistent and superior quality.",
-        icon: <RiLightbulbFlashFill className="size-10"/>
+        icon: <RiLightbulbFlashFill size={36}/>
       },
       {
         title: "Pan India Presence",
         text: "We proudly serve clients across every corner of India with reliable delivery and support.",
-        icon: <MdSupportAgent className="size-10"/>
+        icon: <MdSupportAgent size={36}/>
       },
       ],
       imageSrc: "https://plus.unsplash.com/premium_photo-1676760960823-cca1c4943504?q=80&w=2006&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -81,12 +81,12 @@ export const aboutUsPage ={
       bulletPoints: [{
         title: "Advanced Equipment",
         text: "Our manufacturing facility is equipped with advanced CNC machines from Doosan (South Korea), hot forging units, and a full suite of testing and finishing tools. This setup allows us to produce industrial-grade fasteners that meet the highest standards — used in railway applications, telecom towers, bridges, and infrastructure projects.",
-        icon: <SiTicktick className="size-10"/>
+        icon: <SiTicktick size={36}/>
       },
       {
         title: "Diverse Product Range",
         text: "We provide a large selection of fasteners made of high quality steel. Our products adhere to internationally recognized standards, ensuring global applicability and reliability.",
-        icon: <SiTicktick className="size-10"/>
+        icon: <SiTicktick size={36}/>
       },
       ],
       button: {
@@ -107,42 +107,42 @@ export const whyChooseUsPage ={
   bulletPoints: [{
     title: "Decades of Experience",
     text: "With 35+ years in the industry, our journey has been one of innovation, reliability, and evolution. We’ve adapted with time, invested in the latest machinery, and trained our workforce to meet the ever-changing needs of our customers.",
-    icon: <BsBuildingsFill className="size-10"/>
+    icon: <BsBuildingsFill size={36}/>
   },
   {
     title: "Advanced Manufacturing Setup",
     text: "Our production unit is equipped with: CNC Machines for precision parts, Hot Forging Units for durability and strength. Thread Rolling and Heat Treatment Machines for performance optimization, Quality Control Labs to ensure every piece meets industrial standards.",
-    icon: <RiVerifiedBadgeFill className="size-10"/>
+    icon: <RiVerifiedBadgeFill size={36}/>
   },
   {
     title: "All-India Presence",
     text: "From industrial hubs to remote project sites, our fasteners are trusted and used across India. We ensure timely delivery and consistent support, no matter where you are located.",
-    icon: <BsGearWideConnected className="size-10"/>
+    icon: <BsGearWideConnected size={36}/>
   },
   {
     title: "Ahead in Technology and service",
     text: "In order to deliver creative solutions, we continuously progress from manual machines to advanced formers.",
-    icon: <TbCertificate className="size-10"/>
+    icon: <TbCertificate size={36}/>
   },
   {
     title: "Quality That Goes Global",
     text: "Our fasteners are not just used across India, they’re exported globally through our clients. Whether it's railway infrastructure, high-rise towers, or massive bridge projects, our products are built to last and trusted where safety is non-negotiable.",
-    icon: <TbBulbFilled className="size-10"/>
+    icon: <TbBulbFilled size={36}/>
   },
   {
     title: "Infrastructure-Grade Reliability",
     text: "Our fasteners play a key role in railways, transmission towers, bridges, and industrial structures, where strength, consistency, and quality are critical. Engineers and project heads choose us because we deliver what we promise every time.",
-    icon: <VscWorkspaceTrusted className="size-10"/>
+    icon: <VscWorkspaceTrusted size={36}/>
   },
   {
     title: "Long-Term Relationships, Built on Trust",
     text: "We are proud to have a large base of trusted clients who have been associated with us for years – even decades. Our consistency, transparency, and customer-first approach have helped us earn their loyalty.",
-    icon: <FaUserGear className="size-10"/>
+    icon: <FaUserGear size={36}/>
   },
   {
     title: "Your Confidence, Our Commitment",
     text: "Our growing revenue and production volume reflect the trust and satisfaction of our customers globally.",
-    icon: <FaHandshake className="size-10"/>
+    icon: <FaHandshake size={36}/>
   },
   ],
 }
@@ -220,6 +220,14 @@ export const productsPage ={
       imageSrc: "https://m.media-amazon.com/images/I/618OP5ZmXGS._AC_UF1000,1000_QL80_.jpg",
     },
   ]
+}
+
+export const contactUsPage ={
+  homeBanner: {
+    heading1: "Contact US",
+    imageSrc: "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageAlt: "ContactUsPage Banner"
+  },
 }
 
 

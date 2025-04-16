@@ -6,6 +6,7 @@ import WhyChooseUs from "../pages/WhyChooseUs";
 import ContactUs from "../pages/ContactUs";
 import ProductsPage from "../pages/ProductsPage";
 import ProductsCategories from "../pages/ProductsCategories";
+import PageNotFound from "../pages/PageNotFound";
 
 const router = createBrowserRouter([
     {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
                 element: <ProductsCategories/>
             },
         ]
+    },
+    {
+        path: '*',
+        element: <PageNotFound/>,
     }
 ]);
 

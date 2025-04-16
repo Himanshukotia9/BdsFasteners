@@ -80,8 +80,8 @@ export default function Footer() {
             &copy; {currentYear} BDS Fasteners. All Rights Reserved.
           </Typography>
           <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
-            <Typography as={Link} to="/about-us" variant="small" className="mb-4 text-center font-normal text-white hover:text-stone-400 md:mb-0 uppercase">Privacy Policy</Typography>
-            <Typography as={Link} to="/about-us" variant="small" className="mb-4 text-center font-normal text-white hover:text-stone-400 md:mb-0 uppercase">Terms of use</Typography>
+            <Typography as={Link} to="/privacy-policy" variant="small" className="mb-4 text-center font-normal text-white hover:text-stone-400 md:mb-0 uppercase">Privacy Policy</Typography>
+            <Typography as={Link} to="/terms-of-use" variant="small" className="mb-4 text-center font-normal text-white hover:text-stone-400 md:mb-0 uppercase">Terms of use</Typography>
           </div>
         </div>
       </div>
