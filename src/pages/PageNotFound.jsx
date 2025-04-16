@@ -12,7 +12,9 @@ export default function PageNotFound() {
             <img src="/404.svg" alt="not found" className='NotFoundImg w-full max-w-80 m-auto sm:max-w-xl ' />
             <div className='footer grid gap-8 place-content-baseline sm:max-w-80'>
                 <p className='text-base'>We're sorry, the page you requested could not be found. Please go back to the homepage!</p>
-                <button className='p-4 rounded-md text-base font-semibold bg-[#f9b23c] cursor-pointer transition-[0.3s] hover:bg-[#f49a20]'><Link to='/'>Go Home</Link></button>
+                <Link to='/'>
+                  <button className='p-4 rounded-md text-base font-semibold bg-[#f9b23c] cursor-pointer transition-[0.3s] hover:bg-[#f49a20]'>Go Home</button>
+                </Link>
             </div>
         </div>
     </div>
