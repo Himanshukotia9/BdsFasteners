@@ -11,28 +11,7 @@ export default function Footer() {
         <div className="grid py-8 justify-between">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-12 gap-4">
             <ul className="md:col-span-1 xl:col-span-5">
-              <div className="flex items-center gap-2">
-                <span className="text-2xl font-bold text-stone-400">
-                  BDS Fasteners
-                </span>
-                <svg
-                  width="50"
-                  height="39"
-                  viewBox="0 0 50 39"
-                  fill='white'
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-10"
-                >
-                  <path
-                    d="M16.4992 2H37.5808L22.0816 24.9729H1L16.4992 2Z"
-                    stopColor='white'
-                  ></path>
-                  <path
-                    d="M17.4224 27.102L11.4192 36H33.5008L49 13.0271H32.7024L23.2064 27.102H17.4224Z"
-                    stopColor='white'
-                  ></path>
-                </svg>
-              </div>
+            <img className="h-16" src="./Logo.png" alt="" />
               <li>
                   <Typography as="p" color="white" className="py-1.5 font-normal">BDS Fasteners, renowned for its high-quality industrial fasteners, caters to a diverse range of applications across industries. we believe that quality isn’t just a standard – it’s a commitment. Each fastener we produce undergoes rigorous checks and precise manufacturing using advanced machines like CNC and hot forging units. We don’t chase volumes; we chase perfection.</Typography>
                 </li>
