@@ -42,7 +42,7 @@ export default function Navbar() {
     // Temp logo from https://logoipsum.com/
     return (
       <div className="flex items-center gap-2">
-        <img className="w-full h-16" src="./Logo.png" alt="" />
+        <img className="md:w-full h-16" src="./Logo.png" alt="" />
         {/* <span className="text-2xl font-bold" style={{ color }}>
           BDS Fasteners
         </span>
