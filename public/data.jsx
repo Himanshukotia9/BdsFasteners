@@ -6,7 +6,7 @@ import { SiTicktick } from "react-icons/si";
 import { BsBuildingsFill, BsGearWideConnected } from "react-icons/bs";
 import { TbBulbFilled, TbCertificate } from "react-icons/tb";
 import { VscWorkspaceTrusted } from "react-icons/vsc";
-import banner1 from "./Photos/Banners/HomeBanner.jpg"
+import banner1 from "./Photos/Banners/HomeBanner1.jpg"
 
 export const homePage ={
   homeBanner: {
