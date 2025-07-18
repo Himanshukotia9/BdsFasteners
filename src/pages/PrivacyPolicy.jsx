@@ -60,7 +60,7 @@ export default function PrivacyPolicy() {
             {/* Commitment Section */}
             <div className="bg-black p-8">
               <div className="flex items-center space-x-3 mb-4">
-                <Lock className="h-6 w-6 text-white" />
+                <Lock className="h-6 w-6 text-red-600" />
                 <h3 className="text-xl font-semibold text-white">
                   Our Commitment
                 </h3>

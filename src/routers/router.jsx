@@ -8,6 +8,7 @@ import ProductsPage from "../pages/ProductsPage";
 import ProductsCategories from "../pages/ProductsCategories";
 import PageNotFound from "../pages/PageNotFound";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
+import TermsOfUse from "../pages/TermsOfUse";
 
 const router = createBrowserRouter([
     {
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
             {
                 path: '/privacy-policy',
                 element: <PrivacyPolicy/>
+            },
+            {
+                path: '/terms-of-use',
+                element: <TermsOfUse/>
             },
         ]
     },

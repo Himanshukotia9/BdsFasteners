@@ -246,6 +246,36 @@ export const privacyPolicy ={
   commitment: "We are dedicated to operating our company in line with these values to guarantee the preservation and protection of the privacy of personal data."
 }
 
+export const termsOfUse = {
+  homeBanner: {
+    heading1: "Terms Of Use",
+    imageSrc:
+      "https://images.unsplash.com/photo-1538080204498-afe921550d75?q=80&w=2085&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageAlt: "TermsOfUse Page Banner",
+  },
+  title: "TERMS OF USE",
+  introduction:
+    "By accessing this website, you are agreeing to be bound by these website Terms and Conditions of Use, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws.",
+  terms: [
+    {
+      title: "TERMS",
+      content:
+        "By accessing this website, you are agreeing to be bound by these website Terms and Conditions of Use, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trade mark law.",
+    },
+    {
+      title: "LINKS",
+      content:
+        "BDS fastener and supply LLP has not reviewed all of the sites linked to its Internet website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by BDS fastener and supply LLP of the site. Use of any such linked website is at the user's own risk.",
+    },
+    {
+      title: "SITE TERMS OF USE MODIFICATIONS",
+      content:
+        "BDS fastener and supply LLP may revise these terms of use for its web site at any time without notice. By using this website you are agreeing to be bound by the then current version of these Terms and Conditions of Use.",
+    },
+  ],
+  footer: "General Terms and Conditions applicable to Use of a Website.",
+};
+
 
 // for footer component
 export const links = [
