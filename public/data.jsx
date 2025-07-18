@@ -6,13 +6,12 @@ import { SiTicktick } from "react-icons/si";
 import { BsBuildingsFill, BsGearWideConnected } from "react-icons/bs";
 import { TbBulbFilled, TbCertificate } from "react-icons/tb";
 import { VscWorkspaceTrusted } from "react-icons/vsc";
+import banner1 from "./Photos/Banners/HomeBanner.jpg"
 
 export const homePage ={
   homeBanner: {
     heading1: "Engineering the Future of Fasteners",
-    heading2: "India’s Largest Fastener Manufacturer Since 1962",
-    imageSrc: "https://images.unsplash.com/photo-1567177172939-9b0ee9d116d9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    imageAlt: "HomePage Banner"
+    imageSrc: banner1
   },
   altBanner: [
     {
@@ -228,6 +227,23 @@ export const contactUsPage ={
     imageSrc: "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     imageAlt: "ContactUsPage Banner"
   },
+}
+
+export const privacyPolicy ={
+  homeBanner: {
+    heading1: "Privacy Policy",
+    imageSrc: "https://images.unsplash.com/photo-1538080204498-afe921550d75?q=80&w=2085&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageAlt: "PrivacyPolicy Page Banner"
+  },
+  introduction: "Your privacy is very important to us. Accordingly, we have developed this Policy in order for you to understand how we collect, use, communicate and disclose and make use of personal information. The following outlines our privacy policy.",
+  policies: [
+    "Before or at the time of collecting personal information, we will identify the purposes for which information is being collected.",
+    "We will collect and use of personal information solely with the objective of fulfilling those purposes specified by us and for other compatible purposes, unless we obtain the consent of the individual concerned or as required by law.",
+    "We will only retain personal information as long as necessary for the fulfillment of those purposes.",
+    "We will collect personal information by lawful and fair means and, where appropriate, with the knowledge or consent of the individual concerned.",
+    "Personal data should be relevant to the purposes for which it is to be used, and, to the extent necessary for those purposes, should be accurate, complete, and up-to-date."
+  ],
+  commitment: "We are dedicated to operating our company in line with these values to guarantee the preservation and protection of the privacy of personal data."
 }
 
 

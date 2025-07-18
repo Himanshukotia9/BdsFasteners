@@ -7,6 +7,7 @@ import ContactUs from "../pages/ContactUs";
 import ProductsPage from "../pages/ProductsPage";
 import ProductsCategories from "../pages/ProductsCategories";
 import PageNotFound from "../pages/PageNotFound";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
 
 const router = createBrowserRouter([
     {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
             {
                 path: '/products/:title',
                 element: <ProductsCategories/>
+            },
+            {
+                path: '/privacy-policy',
+                element: <PrivacyPolicy/>
             },
         ]
     },
