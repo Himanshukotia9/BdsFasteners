@@ -6,7 +6,17 @@ import { SiTicktick } from "react-icons/si";
 import { BsBuildingsFill, BsGearWideConnected } from "react-icons/bs";
 import { TbBulbFilled, TbCertificate } from "react-icons/tb";
 import { VscWorkspaceTrusted } from "react-icons/vsc";
-import banner1 from "./Photos/Banners/HomeBanner1.jpg"
+import banner1 from "./Photos/Banners/HomeBanner.jpg"
+import banner2 from "./Photos/Banners/AboutUsBanner.jpg"
+import banner3 from "./Photos/Banners/ProductsBanner.jpg"
+import banner4 from "./Photos/Banners/Terms&Condition.svg"
+import banner5 from "./Photos/Banners/PrivacyPolicy.jpg"
+import banner6 from "./Photos/Banners/WhyChooseUs.jpg"
+import banner7 from "./Photos/Banners/ContactUs.jpg"
+import PagePhoto1 from "./Photos/PagePhotos/Home1.jpg"
+import PagePhoto2 from "./Photos/PagePhotos/Home2.jpg"
+import PagePhoto3 from "./Photos/PagePhotos/AboutUs1.jpg"
+import PagePhoto4 from "./Photos/PagePhotos/AboutUs2.jpg"
 
 export const homePage ={
   homeBanner: {
@@ -26,7 +36,7 @@ export const homePage ={
         text: "About Us",
         link: "/about-us"
       },
-      imageSrc: "https://images.unsplash.com/photo-1589793463357-5fb813435467?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      imageSrc: PagePhoto1
     },
     {
       heading1: "Why Choose us",
@@ -51,7 +61,7 @@ export const homePage ={
         icon: <MdSupportAgent size={36}/>
       },
       ],
-      imageSrc: "https://plus.unsplash.com/premium_photo-1676760960823-cca1c4943504?q=80&w=2006&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      imageSrc: PagePhoto2
     },
   ],
   marqueeSlogan:[
@@ -62,7 +72,7 @@ export const homePage ={
 export const aboutUsPage ={
   homeBanner: {
     heading1: "About BDS Fasteners",
-    imageSrc: "https://plus.unsplash.com/premium_photo-1682146920372-bd950e25125d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: banner2,
     imageAlt: "AboutUsPage Banner"
   },
   altBanner: [
@@ -71,7 +81,7 @@ export const aboutUsPage ={
       heading3: "Our Mission",
       mainText: "Established in 1995, we are a legacy-driven fastener manufacturing company dedicated to quality, innovation, and reliability. From humble beginnings to becoming a trusted name across India, our journey has been powered by precision engineering and customer satisfaction.",
       mainText2: "To deliver world-class fasteners that meet the highest standards in strength, durability, and performance.",
-      imageSrc: "https://plus.unsplash.com/premium_photo-1664299773838-46177e77e1b4?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      imageSrc: PagePhoto3
     },
     {
       heading1: "OUR TECHNOLOGY",
@@ -92,7 +102,7 @@ export const aboutUsPage ={
         text: "Why Choose Us",
         link: "/why-choose-us"
       },
-      imageSrc: "https://images.unsplash.com/photo-1589792924333-edbfbe7c8be7?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      imageSrc: PagePhoto4
     },
   ],
 }
@@ -100,7 +110,7 @@ export const aboutUsPage ={
 export const whyChooseUsPage ={
   homeBanner: {
     heading1: "Why Choose Us",
-    imageSrc: "https://images.unsplash.com/photo-1538080204498-afe921550d75?q=80&w=2085&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: banner6,
     imageAlt: "WhyChooseUsPage Banner"
   },
   bulletPoints: [{
@@ -149,7 +159,7 @@ export const whyChooseUsPage ={
 export const productsPage ={
   homeBanner1: {
     heading1: "Products",
-    imageSrc: "https://images.unsplash.com/photo-1538080204498-afe921550d75?q=80&w=2085&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: banner3,
     imageAlt: "ProductsPage Banner"
   },
   homeBanner2: {
@@ -223,8 +233,7 @@ export const productsPage ={
 
 export const contactUsPage ={
   homeBanner: {
-    heading1: "Contact US",
-    imageSrc: "https://images.unsplash.com/photo-1534536281715-e28d76689b4d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: banner7,
     imageAlt: "ContactUsPage Banner"
   },
 }
@@ -232,7 +241,7 @@ export const contactUsPage ={
 export const privacyPolicy ={
   homeBanner: {
     heading1: "Privacy Policy",
-    imageSrc: "https://images.unsplash.com/photo-1538080204498-afe921550d75?q=80&w=2085&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: banner5,
     imageAlt: "PrivacyPolicy Page Banner"
   },
   introduction: "Your privacy is very important to us. Accordingly, we have developed this Policy in order for you to understand how we collect, use, communicate and disclose and make use of personal information. The following outlines our privacy policy.",
@@ -249,8 +258,7 @@ export const privacyPolicy ={
 export const termsOfUse = {
   homeBanner: {
     heading1: "Terms Of Use",
-    imageSrc:
-      "https://images.unsplash.com/photo-1538080204498-afe921550d75?q=80&w=2085&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: banner4,
     imageAlt: "TermsOfUse Page Banner",
   },
   title: "TERMS OF USE",
