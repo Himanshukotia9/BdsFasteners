@@ -172,48 +172,43 @@ export const productsPage ={
       title: "Hex Nut",
       sizeRange: {
         mmSize: "M-24 To M-100",
-        bswSize: '7/8" To 4" ',
+        bswSize: '7/8" To 3" ',
       },
       material: "Mild Steel and EN - 8/9/15/19 grade /EN 24",
       finish: "Self/Natural, Bright Zink, Yellow Passivation, Hot Dip Galvanised, Auto Black, Phosphating",
       imageSrc: "https://m.media-amazon.com/images/I/618OP5ZmXGS._AC_UF1000,1000_QL80_.jpg",
     },
     {
-      title: "Jam Nut",
+      title: "Lock Nut",
       sizeRange: {
         mmSize: "M-24 To M-100",
-        bswSize: '7/8" To 4" ',
       },
       material: "Mild Steel and EN - 8/9/15/19 grade /EN 24",
       finish: "Self/Natural, Bright Zink, Yellow Passivation, Hot Dip Galvanised, Auto Black, Phosphating",
       imageSrc: "https://m.media-amazon.com/images/I/618OP5ZmXGS._AC_UF1000,1000_QL80_.jpg",
     },
+    // {
+    //   title: "Castle Nut",
+    //   sizeRange: {
+    //     mmSize: "M-24 To M-100",
+    //     bswSize: '7/8" To 4" ',
+    //   },
+    //   material: "Mild Steel and EN - 8/9/15/19 grade /EN 24",
+    //   finish: "Self/Natural, Bright Zink, Yellow Passivation, Hot Dip Galvanised, Auto Black, Phosphating",
+    //   imageSrc: "https://m.media-amazon.com/images/I/618OP5ZmXGS._AC_UF1000,1000_QL80_.jpg",
+    // },
+    // {
+    //   title: "Slotted Nut",
+    //   sizeRange: {
+    //     mmSize: "M-24 To M-100",
+    //     bswSize: '7/8" To 4" ',
+    //   },
+    //   material: "Mild Steel and EN - 8/9/15/19 grade /EN 24",
+    //   finish: "Self/Natural, Bright Zink, Yellow Passivation, Hot Dip Galvanised, Auto Black, Phosphating",
+    //   imageSrc: "https://m.media-amazon.com/images/I/618OP5ZmXGS._AC_UF1000,1000_QL80_.jpg",
+    // },
     {
-      title: "Castle Nut",
-      sizeRange: {
-        mmSize: "M-24 To M-100",
-        bswSize: '7/8" To 4" ',
-      },
-      material: "Mild Steel and EN - 8/9/15/19 grade /EN 24",
-      finish: "Self/Natural, Bright Zink, Yellow Passivation, Hot Dip Galvanised, Auto Black, Phosphating",
-      imageSrc: "https://m.media-amazon.com/images/I/618OP5ZmXGS._AC_UF1000,1000_QL80_.jpg",
-    },
-    {
-      title: "Slotted Nut",
-      sizeRange: {
-        mmSize: "M-24 To M-100",
-        bswSize: '7/8" To 4" ',
-      },
-      material: "Mild Steel and EN - 8/9/15/19 grade /EN 24",
-      finish: "Self/Natural, Bright Zink, Yellow Passivation, Hot Dip Galvanised, Auto Black, Phosphating",
-      imageSrc: "https://m.media-amazon.com/images/I/618OP5ZmXGS._AC_UF1000,1000_QL80_.jpg",
-    },
-    {
-      title: "Squaer Nut",
-      sizeRange: {
-        mmSize: "M-24 To M-100",
-        bswSize: '7/8" To 4" ',
-      },
+      title: "Square Nut",
       material: "Mild Steel and EN - 8/9/15/19 grade /EN 24",
       finish: "Self/Natural, Bright Zink, Yellow Passivation, Hot Dip Galvanised, Auto Black, Phosphating",
       imageSrc: "https://m.media-amazon.com/images/I/618OP5ZmXGS._AC_UF1000,1000_QL80_.jpg",
@@ -222,7 +217,6 @@ export const productsPage ={
       title: "Heavy Hex Nut",
       sizeRange: {
         mmSize: "M-24 To M-100",
-        bswSize: '7/8" To 4" ',
       },
       material: "Mild Steel and EN - 8/9/15/19 grade /EN 24",
       finish: "Self/Natural, Bright Zink, Yellow Passivation, Hot Dip Galvanised, Auto Black, Phosphating",

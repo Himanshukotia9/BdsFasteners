@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HeroBanner({data}) {
   return (
-    <section className="relative h-96 py-10 overflow-hidden bg-black sm:py-16 lg:py-24 xl:py-32 rounded-b-3xl">
+    <section className="relative md:h-96 py-10 overflow-hidden bg-black sm:py-16 lg:py-24 xl:py-32 rounded-b-3xl">
       <div className="absolute inset-0">
         <img
           className="object-cover w-full h-full"

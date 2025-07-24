@@ -26,7 +26,7 @@ export default function ProductsCategories() {
                 <h2 className="text-2xl font-semibold text-red-600 uppercase font-heading">{product.title}</h2>
                 )}
                 
-                {product.sizeRange && (
+                {product.sizeRange ? (
                 <div>
                     <h3 className='text-xl font-semibold font-heading underline'>Size Range:</h3>
                     <div className='flex space-x-2'>
@@ -35,10 +35,23 @@ export default function ProductsCategories() {
                             {product.sizeRange.mmSize}
                         </p>
                     </div>
+                    {product.sizeRange.bswSize && (
+                        <div className='flex space-x-2'>
+                            <h4 className='text-lg font-medium font-heading'>BSW Size : </h4>
+                            <p className="text-white text-lg font-primary">
+                                {product.sizeRange.bswSize}
+                            </p>
+                        </div>
+                    )}
+                </div>
+                )
+                :
+                (
+                    <div>
+                    <h3 className='text-xl font-semibold font-heading underline'>Size Range:</h3>
                     <div className='flex space-x-2'>
-                        <h4 className='text-lg font-medium font-heading'>BSW Size : </h4>
                         <p className="text-white text-lg font-primary">
-                            {product.sizeRange.bswSize}
+                            Call For Size Inquiry
                         </p>
                     </div>
                 </div>
