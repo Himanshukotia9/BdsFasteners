@@ -13,15 +13,15 @@ export const CountUpStats = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 sm:gap-8">
         <Stat
-          num={50.5}
+          num={5.2}
           decimals={1}
           suffix="K+"
-          subheading="Active Users"
+          subheading="Active Distributors"
         />
         <Stat
           num={100}
           suffix="+"
-          subheading="Enterprise Clients"
+          subheading="Clients"
         />
         <Stat
           num={30}
